@@ -66,7 +66,7 @@ consume as context.
 - **Problem shape:** Need to stress-test a strategy, explore competitive dynamics, or surface emergent problems that static analysis misses.
 - **Dispatch:** N agents with persistent roles, turn-based with hidden info, narrator
 - **Agent count:** 3-5 roles × 3-5 turns + narrator
-- **Cost:** Very high (12-26 calls)
+- **Cost:** Very high (12-26 calls). Floor: 3 roles × 3 turns (10 calls) still produces emergent dynamics.
 
 ### premortem
 - **Full name:** Prospective Hindsight Failure Narrative

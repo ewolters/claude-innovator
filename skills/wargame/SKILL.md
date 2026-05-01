@@ -70,6 +70,13 @@ include ONLY the PUBLIC ACTIONs from all roles in previous turns and from
 roles that have already acted in turn N. NEVER include PRIVATE REASONING
 from other roles.
 
+**Shared-institution sub-publics:** Some roles may share an institution (e.g.,
+two departments within the same company). These roles would realistically see
+each other's internal moves while external roles would not. When designing the
+game, explicitly define visibility groups — which roles share an information
+boundary and which are fully external. Filter accordingly when constructing
+each role's situation prompt.
+
 ## Step 4: Dispatch Narrator Agent
 
 After all turns complete, dispatch a narrator agent that sees EVERYTHING —
@@ -96,6 +103,9 @@ Write:
 4. **Information asymmetry insights:** Where did private strategies collide
    in ways the roles couldn't see?
 5. **Key decision points:** Which turn/action was the inflection point?
+6. **Unspent threats:** What capabilities or threats were held in reserve
+   and never deployed? How did their mere existence shape the equilibrium?
+   Deterrence by absence is often the strongest finding.
 
 Do NOT recommend a strategy. Surface what happened and what it reveals.
 ```
