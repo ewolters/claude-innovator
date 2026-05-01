@@ -89,8 +89,10 @@ Your job:
 2. Identify which structural principles are NOVEL relative to the problem's
    native domain — things that practitioners in the original field would not
    typically consider.
-3. Identify any structural principles that MULTIPLE domains converged on
-   independently — this convergence suggests the principle is robust.
+3. Identify any structural principles that MULTIPLE independently-primed domains
+   converged on — this suggests robustness, though convergence partly reflects
+   shared model priors, not just deep structural truth. Flag it as signal worth
+   noting, not proof.
 4. Note any domain solutions that suggest a fundamentally different FRAMING
    of the problem itself (not just a different solution, but a different
    understanding of what the problem is).
