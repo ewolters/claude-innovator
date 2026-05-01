@@ -1,0 +1,9 @@
+{
+  "name": "innovate",
+  "description": "Structured creativity through isolated subagent dispatch. Divergence engine for generating novel ideas via TRIZ, morphological analysis, war gaming, cross-domain transfer, and other innovation techniques.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Eric Wolters",
+    "url": "https://svend.ai"
+  }
+}
