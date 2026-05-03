@@ -95,6 +95,15 @@ consume as context.
 - **Agent count:** 3 (2 parallel + 1 synthesizer)
 - **Cost:** Moderate (3 calls, 2 parallel)
 
+### focus
+- **Full name:** Research-Grounded Focus Group
+- **Origin:** Market research, qualitative user research
+- **Divergence tier:** 1 (personas grounded in real market data, not model archetypes)
+- **Problem shape:** Need customer/market perspective on a concept, product, or decision. Want diverse reactions, not a single "user persona."
+- **Dispatch:** 1 research agent (web search) → user approval → N parallel persona agents → 1 synthesis agent
+- **Agent count:** 6 (1 researcher + 4 personas + 1 synthesizer)
+- **Cost:** High (6 calls + web search, 4 parallel). Quick mode skips research (5 calls).
+
 ### invert (v0.2)
 - **Full name:** Inversion — "Make It Terrible" Then Flip
 - **Divergence tier:** 2
