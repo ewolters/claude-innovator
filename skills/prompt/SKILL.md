@@ -29,6 +29,7 @@ Look at the user's description and match against problem shapes:
 | About to commit to a plan / need failure modes | `:premortem` |
 | Have a specific proposal to attack | `:redblue` |
 | Design decision with real tradeoffs / need structured debate | `:conference` |
+| Have design candidates, need aesthetic/UX evaluation beyond feature checklists | `:kansei` |
 
 ## Step 3: Recommend
 
