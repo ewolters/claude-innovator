@@ -104,6 +104,25 @@ consume as context.
 - **Agent count:** 6 (1 researcher + 4 personas + 1 synthesizer)
 - **Cost:** High (6 calls + web search, 4 parallel). Quick mode skips research (5 calls).
 
+### kansei
+- **Full name:** Kansei Filter — Japanese Aesthetic Evaluation
+- **Origin:** Japanese aesthetics (kanso, ma, shizen, fukinsei). Applied design criticism.
+- **Divergence tier:** 2 (convergence technique — evaluates, does not generate)
+- **Problem shape:** Have design candidates and need principled evaluation beyond feature-checklist thinking. Want to filter through simplicity, space, naturalness, and visual tension rather than "does it check the most boxes."
+- **Dispatch:** 4 parallel lens agents (kanso, ma, shizen, fukinsei) → 1 synthesis agent
+- **Agent count:** 5 (4 parallel + 1 synthesizer)
+- **Cost:** Moderate (5 calls, 4 parallel)
+
+### moonshine
+- **Full name:** 3P Moonshine — Cooperative Prototyping with Objective Criteria
+- **Origin:** Chihiro Nakao / Shingijutsu, Production Preparation Process (2P/3P)
+- **Divergence tier:** 1 (engineered variation produces structurally different implementations)
+- **Problem shape:** Need to build something where multiple approaches are viable. Clear testable interface. Want the best design to emerge from competition, not from upfront analysis.
+- **Dispatch:** Criteria script → 3 parallel agents (each with different constraint) → comparison → synthesis
+- **Agent count:** 3 parallel + synthesis by orchestrator
+- **Cost:** High (3 parallel calls + synthesis). But produces working, tested code — not analysis.
+- **Unique:** Only innovate technique that produces executable artifacts. All others produce documents.
+
 ### invert (v0.2)
 - **Full name:** Inversion — "Make It Terrible" Then Flip
 - **Divergence tier:** 2
